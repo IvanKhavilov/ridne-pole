@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <img src="images/logo.svg" alt="логотип" />
+          </a>
+          <form class="form-search">
+            <input class="form-search__input" type="search" placeholder="Я шукаю..." />
+            <button class="form-search__btn">знайти</button>
+          </form>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#">про нас</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">контакти</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">
+                  <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13.0065 24C12.7616 24 12.5166 23.9217 12.3104 23.752C8.75263 20.8287 6.43236 18.845 4.34411 16.7308C-0.0515304 12.3589 -0.0257498 8.23491 3.10168e-05 7.59543C3.10168e-05 7.51713 3.10168e-05 7.43883 3.10168e-05 7.36052C3.10168e-05 3.36705 3.35154 0 7.33469 0C9.52606 0 11.6014 1.0571 13.0065 2.77977C14.3986 1.04405 16.4869 0 18.6783 0C22.6485 0 26.0129 3.36705 26.0129 7.36052C26.0129 7.43883 26.0129 7.51713 26.0129 7.59543C26.0516 8.23491 26.0645 12.3589 21.656 16.7308C19.5806 18.845 17.2603 20.8287 13.7026 23.752C13.4963 23.9217 13.2514 24 13.0065 24ZM2.1914 7.73899C2.17851 8.06525 2.10117 11.3931 5.89096 15.1517C7.78585 17.0701 9.88699 18.8972 13.0065 21.4682C16.1131 18.8972 18.2271 17.0701 20.1091 15.1648C23.886 11.4062 23.8344 8.0783 23.8215 7.73899C23.8215 7.68679 23.8087 7.63458 23.8215 7.58238C23.8215 7.51713 23.8215 7.45188 23.8215 7.38662C23.8215 4.5938 21.4626 2.2447 18.6783 2.2447C16.7576 2.2447 14.8756 3.4845 13.999 5.35073C13.8186 5.74225 13.4319 5.97716 13.0065 5.97716C12.5811 5.97716 12.1944 5.7292 12.0139 5.35073C11.1374 3.4584 9.25536 2.2186 7.33469 2.2186C4.55035 2.2186 2.1914 4.58075 2.1914 7.36052C2.1914 7.42578 2.1914 7.49103 2.1914 7.56933C2.20429 7.62153 2.20429 7.67374 2.1914 7.73899Z"
+                      fill="#313030"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">
+                  <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M18.1942 6.39725C18.1942 8.45442 16.3075 10.1221 13.9802 10.1221C11.6528 10.1221 9.76613 8.45442 9.76613 6.39725C9.76613 4.34007 11.6528 2.67241 13.9802 2.67241C16.3075 2.67241 18.1942 4.34007 18.1942 6.39725ZM20.7226 6.39725C20.7226 9.68873 17.7039 12.357 13.9802 12.357C10.2564 12.357 7.23772 9.68873 7.23772 6.39725C7.23772 3.10577 10.2564 0.4375 13.9802 0.4375C17.7039 0.4375 20.7226 3.10577 20.7226 6.39725ZM12.2949 12.7294C6.01104 12.7294 0.916992 17.2321 0.916992 22.7865V25.3938H27.044V22.7865C27.044 17.2321 21.9499 12.7294 15.6661 12.7294H12.2949ZM3.44541 22.7865C3.44541 18.4664 7.40745 14.9643 12.2949 14.9643H15.6661C20.5535 14.9643 24.5156 18.4664 24.5156 22.7865V23.1589H3.44541V22.7865Z"
+                      fill="#313030"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="main__page">
+          <aside class="catalog catalog-hide">
+            <h4 class="catalog__title">Сatalog of goods</h4>
+            <ul class="catalog__list">
+              <li class="catalog__item" style="background-image: url(images/icon-1.svg)">
+                Consumer Electronics
+                <ul class="submenu">
+                  <li class="submenu__item submenu__item-title">Consumer Electronics</li>
+                  <li class="submenu__item submenu__item-back">
+                    <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#313030" />
+                      <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#313030" />
+                    </svg>
+                    Back to catalog
+                  </li>
+                  <li class="submenu__item">
+                    Large consumer electronics
+                    <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#818181" />
+                      <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#818181" />
+                    </svg>
+                    <ul class="subsubmenu">
+                      <li class="subsubmenu__item subsubmenu__item-title">Large consumer electronics</li>
+                      <li class="subsubmenu__item subsubmenu__item-back">
+                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#313030" />
+                          <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#313030" />
+                        </svg>
+                        Back to catalog
+                      </li>
+                      <li class="subsubmenu__item">
+                        <a class="subsubmenu__link" href="#">Refrigerators</a>
+                      </li>
+                      <li class="subsubmenu__item">
+                        <a class="subsubmenu__link" href="#">Washing machines</a>
+                      </li>
+                      <li class="subsubmenu__item">
+                        <a class="subsubmenu__link" href="#">Dishwashers</a>
+                      </li>
+                      <li class="subsubmenu__item">
+                        <a class="subsubmenu__link" href="#">Cookers</a>
+                      </li>
+                      <li class="subsubmenu__item">
+                        <a class="subsubmenu__link" href="#">Freezers</a>
+                      </li>
+                      <li class="subsubmenu__item">
+                        <a class="subsubmenu__link" href="#">Drying machines</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="submenu__item">
+                    Embedded appliances
+                    <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#818181" />
+                      <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#818181" />
+                    </svg>
+                  </li>
+                  <li class="submenu__item">
+                    Kitchen Appliances
+                    <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#818181" />
+                      <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#818181" />
+                    </svg>
+                  </li>
+                  <li class="submenu__item">
+                    Home and clothing care
+                    <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#818181" />
+                      <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#818181" />
+                    </svg>
+                  </li>
+                  <li class="submenu__item">
+                    Beauty and health<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#818181" />
+                      <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#818181" />
+                    </svg>
+                  </li>
+                  <li class="submenu__item">
+                    Air conditioning equipment<svg
+                      width="6"
+                      height="11"
+                      viewBox="0 0 6 11"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#818181" />
+                      <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#818181" />
+                    </svg>
+                  </li>
+                  <li class="submenu__item">
+                    Water filters<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#818181" />
+                      <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#818181" />
+                    </svg>
+                  </li>
+                  <li class="submenu__item">
+                    Instrumentation<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.000974337 9.7839L4.91374 4.28389L6 5.5L1.08723 11L0.000974337 9.7839Z" fill="#818181" />
+                      <path d="M1.08728 0L6 5.5L4.91277 6.71725L0 1.21724L1.08728 0Z" fill="#818181" />
+                    </svg>
+                  </li>
+                </ul>
+              </li>
+              <li class="catalog__item" style="background-image: url(images/icon-2.svg)">Computers, laptops, accessories</li>
+              <li class="catalog__item" style="background-image: url(images/icon-3.svg)">Household products</li>
+              <li class="catalog__item" style="background-image: url(images/icon-4.svg)">Tools & Auto Products</li>
+              <li class="catalog__item" style="background-image: url(images/icon-5.svg)">Cottage, garden and vegetable garden</li>
+              <li class="catalog__item" style="background-image: url(images/icon-6.svg)">Children's products</li>
+              <li class="catalog__item" style="background-image: url(images/icon-7.svg)">Beauty & Health</li>
+              <li class="catalog__item" style="background-image: url(images/icon-8.svg)">Goods for business</li>
+              <li class="catalog__item" style="background-image: url(images/icon-9.svg)">Plumbing and repair</li>
+              <li class="catalog__item" style="background-image: url(images/icon-10.svg)">Sports and hobbies</li>
+              <li class="catalog__item" style="background-image: url(images/icon-11.svg)">Sports and hobbies</li>
+              <li class="catalog__item" style="background-image: url(images/icon-12.svg)">Tourism</li>
+              <li class="catalog__item">Others</li>
+            </ul>
+            <a class="catalog__shops" href="#">The Shops</a>
+          </aside>
+
+          <div class="main__header">
+            <nav class="main__header-menu">
+              <ul class="main__header-list">
+                <li class="main__header-item">
+                  <a class="main__header-link" href="index.html">Home</a>
+                </li>
+                <li class="main__header-item">
+                  <a class="main__header-link" href="#">The Shops</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="select">
+              <div class="select__header" id="select__header">
+                <span class="select__title">sort by</span>
+                <img class="select__icon" src="images/select-arrow.svg" alt="icon" />
+              </div>
+              <div class="select__items">
+                <div class="select__item">Value1</div>
+                <div class="select__item">Value2</div>
+                <div class="select__item">Value3</div>
+                <div class="select__item">Value4</div>
+                <div class="select__item">Value5</div>
+              </div>
+            </div>
+          </div>
+          <div class="shops">
+            <div class="shops__item">
+              <div class="shops__logo">
+                <img class="shops__img" src="images/shop-img.png" alt="" />
+              </div>
+              <div class="shops__inner">
+                <div class="shops__descr">
+                  <h3 class="shops__descr-name">M TECH</h3>
+                  <p class="shops__descr-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.
+                  </p>
+                </div>
+                <div class="shops__footer">
+                  <div class="shops__footer-rating">
+                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#D9D9D9"
+                      />
+                    </svg>
+                  </div>
+                  <div class="shops__footer-grade">4.49 <span>(39 оцінок)</span></div>
+                  <div class="shops__footer-product">
+                    <span class="product-amt">12</span>
+                    товарів
+                  </div>
+                  <button class="shops__footer-call">Call</button>
+                </div>
+              </div>
+            </div>
+            <div class="shops__item">
+              <div class="shops__logo">
+                <img class="shops__img" src="images/shop-img.png" alt="" />
+              </div>
+              <div class="shops__inner">
+                <div class="shops__descr">
+                  <h3 class="shops__descr-name">M TECH</h3>
+                  <p class="shops__descr-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.
+                  </p>
+                </div>
+                <div class="shops__footer">
+                  <div class="shops__footer-rating">
+                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#D9D9D9"
+                      />
+                    </svg>
+                  </div>
+                  <div class="shops__footer-grade">4.49 <span>(39 оцінок)</span></div>
+                  <div class="shops__footer-product">
+                    <span class="product-amt">12</span>
+                    товарів
+                  </div>
+                  <button class="shops__footer-call">Call</button>
+                </div>
+              </div>
+            </div>
+            <div class="shops__item">
+              <div class="shops__logo">
+                <img class="shops__img" src="images/shop-img.png" alt="" />
+              </div>
+              <div class="shops__inner">
+                <div class="shops__descr">
+                  <h3 class="shops__descr-name">M TECH</h3>
+                  <p class="shops__descr-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.
+                  </p>
+                </div>
+                <div class="shops__footer">
+                  <div class="shops__footer-rating">
+                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#003CFF"
+                      /></svg
+                    ><svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.2097 0.770508V12.6248H0.379639V0.770508L3.83147 6.69767L7.30601 0.770508L10.7578 6.69767L14.2097 0.770508Z"
+                        fill="#D9D9D9"
+                      />
+                    </svg>
+                  </div>
+                  <div class="shops__footer-grade">0<span>немає оцінок</span></div>
+                  <div class="shops__footer-product">
+                    <span class="product-amt">12</span>
+                    товарів
+                  </div>
+                  <button class="shops__footer-call">Call</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <h3 class="consultation__title">Потрібна консультація?</h3>
+          <h4 class="consultation__subtitle">Задайте питання прямо зараз!</h4>
+          <form class="consultation" action="">
+            <div class="consultation__top">
+              <input class="consultation__top-input" type="text" placeholder="Ім’я" />
+              <input class="consultation__top-input consultation__input-num" type="text" placeholder="+380" />
+              <textarea class="consultation__top-textarea" placeholder="Питання або предмет заявки"></textarea>
+            </div>
+            <label class="custom-checkbox">
+              <input type="checkbox" />
+              <span class="custom-checkbox__text">Я даю згоду на обробку моїх персональних даних </span>
+            </label>
+            <input class="consultation__code" type="text" />
+            <button class="consultation__send-code">Введіть код</button>
+            <button class="consultation__send">Надіслати</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__bottom-text">© 2022 Всі права захищені</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
