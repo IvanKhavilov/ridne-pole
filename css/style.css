@@ -495,6 +495,11 @@ body {
   background-size: cover;
 }
 
+.rating__inner {
+  display: flex;
+  align-items: center;
+}
+
 .rating {
   display: flex;
   align-items: center;
@@ -753,6 +758,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 57px;
+  width: 100%;
 }
 .pagination__item {
   display: flex;
@@ -886,6 +892,7 @@ body {
 }
 .bicycle__box .main__bice-shop:hover .shop-hover {
   display: block;
+  z-index: 101;
 }
 .bicycle__box .shop-hover {
   display: none;
@@ -895,7 +902,7 @@ body {
   box-shadow: 0px 0px 5px rgba(71, 63, 63, 0.2);
   border-radius: 10px;
   position: absolute;
-  top: 20px;
+  top: 29px;
   left: 0;
   padding: 14px 0 14px 10px;
 }
@@ -914,6 +921,10 @@ body {
 .bicycle__box-text {
   margin-top: 17px;
   line-height: 16px;
+}
+
+.jq-ry-container {
+  padding: 0;
 }
 
 .characteristics {
